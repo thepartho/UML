@@ -1,4 +1,8 @@
 package animal;
+/**
+ *
+ * @author PARTHO7
+ */
 public abstract class Animal {
     protected String name;
     protected int age;
@@ -7,14 +11,13 @@ public abstract class Animal {
         this.name = name;
         this.age = age;
     }
-
     public String getName() {
         return name;
     }
-
     public int getAge() {
         return age;
     }
 
+    
     public abstract void makeSound();
 }
